@@ -1,0 +1,288 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="controls_if" id="j,t$H6An%(c^|#7E;g|Y" x="190" y="-870">
+    <mutation elseif="6" else="1"></mutation>
+    <value name="IF0">
+      <block type="logic_compare" id="l8]1{;PN3_%n~l}y1lfI">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ir_array" id="b5:wl!HfQS2OEo$5~%6+">
+            <field name="ir_array_id">0</field>
+            <field name="ir_array_pos">ir_array_pos_l2</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="Y9W]-9-pwUc^LE8Oc_qL">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="dreamkit_motor" id="S|3nHaSe}0VkQf[Pu*j@">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_left</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="NRI(B^{So5OQ.?#XOkf_">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="H~L|X8@B_K8?87Co-r`R">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF1">
+      <block type="logic_compare" id=";kkbbN:@b[;zxP^_{sme">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ir_array" id="r5-;r:$JtxWmPRhOqIwt">
+            <field name="ir_array_id">0</field>
+            <field name="ir_array_pos">ir_array_pos_l1</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="@PjEBgFL9}x(;V3lXyoM">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO1">
+      <block type="dreamkit_motor" id="JXHp-AwyQAy8MG}q1)lH">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="98%q6=|HYH)aOx?7ShX%">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="j.,$u7=-)hdg2.9P-5Hi">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF2">
+      <block type="logic_compare" id="lag{9iUF/o56p[US*yJn">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ir_array" id="QR$Z*Ufz:?r`}WYzm46I">
+            <field name="ir_array_id">0</field>
+            <field name="ir_array_pos">ir_array_pos_c</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="O$qn(G]:A*n8K|@l@t.H">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO2">
+      <block type="dreamkit_motor" id=":KmGbR?ZQM^IC@oJ41Yi">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="X5L41i29A/dhFgF(P0=E">
+            <field name="NUM">18</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="4sSS59U?*V6A$XZhV`r%">
+            <field name="NUM">18</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF3">
+      <block type="logic_compare" id="n`2OAawQJN?3MuZ*BHa]">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ir_array" id="^gA3,[BWmzXK_c~#-t3]">
+            <field name="ir_array_id">0</field>
+            <field name="ir_array_pos">ir_array_pos_r1</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="ZvS0f1Mg41r#[={w^aIB">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO3">
+      <block type="dreamkit_motor" id="]t_uda{1puse?m:n*N*r">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="!gf!#Lvw_6}ZP=rnSmV!">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="Q^);hNMsuj:tV7P,0{*b">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF4">
+      <block type="logic_compare" id="6WM;Vn05#+f]*PVbLv)7">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ir_array" id="f1XgEyz+x:yf9bb~,+vm">
+            <field name="ir_array_id">0</field>
+            <field name="ir_array_pos">ir_array_pos_r2</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="PM:9C5P#bA@.$9f5;u$T">
+            <field name="NUM">25</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO4">
+      <block type="dreamkit_motor" id="hp|N$Yz=g=?zIYY^n?dB">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_right</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="5SRzTHx=8E9pOwiH|Q-r">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="[A3p*!Ry;`,],]uf)V.W">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF5">
+      <block type="logic_operation" id=")Pw1d+:M|KK9|9SmueBw">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="AolkzL60wyM[Ro*+hS(+">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ir_array" id="U%T=FAWk8*lAxbG*-uYV">
+                <field name="ir_array_id">0</field>
+                <field name="ir_array_pos">ir_array_pos_r2</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id=";bW9f@(k$}^*,J-n!$x^">
+                <field name="NUM">25</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="5E`Ryd$79}vM{UkbgI=^">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ir_array" id="GL`H9kTT37(CrmW~GY.f">
+                <field name="ir_array_id">0</field>
+                <field name="ir_array_pos">ir_array_pos_r1</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="-vcW(wG@Mg.qll]Kzh.9">
+                <field name="NUM">25</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO5">
+      <block type="dreamkit_motor" id="S(p:MXF`36;x9[/{f=~8">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_right</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id=")(hA3T,;6-WFJOg2j+/b">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="d+g^S]YWEHUyi{G~[J::">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF6">
+      <block type="logic_operation" id="qL:jva#P:^=s`*v{IBuP">
+        <field name="OP">AND</field>
+        <value name="A">
+          <block type="logic_compare" id="ukX+.O?ap=RB.5n=%!Mp">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ir_array" id="/6Ed)q/ypd[0AA4*/zr;">
+                <field name="ir_array_id">0</field>
+                <field name="ir_array_pos">ir_array_pos_l1</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="G/60bqML++T`5!na{9[A">
+                <field name="NUM">25</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="B">
+          <block type="logic_compare" id="(e-9nJRtvD1H;N`z{D`x">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="dreamkit_ir_array" id="^aB2W~*D|ND0(Oea9gjP">
+                <field name="ir_array_id">0</field>
+                <field name="ir_array_pos">ir_array_pos_l2</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="4P`c_x/?7/{L^vIjEt@i">
+                <field name="NUM">25</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO6">
+      <block type="dreamkit_motor" id="Zp~N?J54iCknXriLB0yB">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_left</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id=":qT)7vP-,M5[07Z,84o#">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="#4_i^_5}1xN$taY`)RbX">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="dreamkit_motor" id="~9eJT0uV=No=J]Mrv!R$">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_right</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="GlgFdoMBCsS=+dJkjlj%">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="nK94~C4E?;?iuwN`YTur">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

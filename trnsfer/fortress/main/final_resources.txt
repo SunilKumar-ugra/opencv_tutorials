@@ -1,0 +1,1 @@
+{'blue': 2, 'cyan': 2, 'pink': 3, 'green': 4, 'red': 0}

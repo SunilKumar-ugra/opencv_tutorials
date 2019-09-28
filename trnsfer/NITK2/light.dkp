@@ -1,0 +1,115 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="controls_if" id="TaWcgIO6ify*dnp%2jpb" x="230" y="10">
+    <mutation elseif="2" else="1"></mutation>
+    <value name="IF0">
+      <block type="logic_compare" id="p-hW3?+LJ{-[e3(egr]j">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ldr" id="0D-i3YNI3s?^N^:;R)y-">
+            <field name="ldr_id">0</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="ylkR]i{Q+(C#Ccao.t%o">
+            <field name="NUM">50</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="dreamkit_motor" id="[2ZET]94PL$$rNNb-]u*">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_forward</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id=":w=K27kOf4~u{(~8|C`V">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="a~+#c|ExPQ%|js#/CkMX">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF1">
+      <block type="logic_compare" id="+u;E^VEGO9?T82}3mO^b">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ldr" id="N^u+fmis,(s%:um)np=F">
+            <field name="ldr_id">1</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="PWR)V~Ut1S{W2C#)uwEv">
+            <field name="NUM">50</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO1">
+      <block type="dreamkit_motor" id="L?H,@T?g$Pex{awDvnS@">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_left</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="6J,ihGxf.Lym^bCjo,ei">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="+C_P~egxJ?0(usS@$X=X">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="IF2">
+      <block type="logic_compare" id="z%kA$x#spud6B+(L|ySQ">
+        <field name="OP">GT</field>
+        <value name="A">
+          <block type="dreamkit_ldr" id="_|GuZ|7i9Jl$AO+jPrQY">
+            <field name="ldr_id">2</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="3Egf?LrP0kK}Gfa^r9;}">
+            <field name="NUM">50</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO2">
+      <block type="dreamkit_motor" id=",=k[HjqLuO0M0C#z%4il">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_right</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="vgHoX)U;A$%*[qIMIhH7">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="#T}GTs(4,UA_]OeD}jwr">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="dreamkit_motor" id="O0$o_@^9|`8,m=~rU;D]">
+        <field name="motor_id">0</field>
+        <field name="motor_direction">motor_stop</field>
+        <value name="motor_speed_left">
+          <shadow type="math_number" id="Es^}0#Uce$%GnK6kq;9:">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+        <value name="motor_speed_right">
+          <shadow type="math_number" id="cnGu9DqtP~M,}-_0IkC-">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

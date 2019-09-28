@@ -1,0 +1,4 @@
+Problems in Rourkela bot
+
+turning every grid point
+while moving ,we cont see feedback

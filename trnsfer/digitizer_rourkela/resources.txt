@@ -1,0 +1,1 @@
+['triangle,571,585,', 'triangle,255,585,', 'square,44,577,', 'square,365,576,', 'square,255,46,', 'triangle,40,53,', 'square,574,44,', 'triangle,357,50,']
